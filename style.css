@@ -1,0 +1,36 @@
+body {
+    margin: 2rem;
+    font-family: sans-serif;
+    background-color: rgb(247, 248, 236);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 850px;
+    height: 200px;
+    margin: 0 auto;
+    border: 3.2px solid rgb(120, 4, 130);
+    border-image: linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: rgb(156, 133, 153);
+}
+
+img {
+    width: 320px;
+    height: 280px;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+}
+
+p {
+    width: 60%;
+}
+
+p,
+h2 {
+    margin-left: 0.3rem;
+}
